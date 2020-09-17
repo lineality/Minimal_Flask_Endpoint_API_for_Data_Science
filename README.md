@@ -58,6 +58,7 @@ Once you have a pipenv and shell set up and running (and files to run):
 
 
 ### Heroku vs. AWS Notes:
+An AWS deployment is very similar, but there are some small differences. e.g.
 - app.route (heroku)
 - vs.
 - application.route (AWS)

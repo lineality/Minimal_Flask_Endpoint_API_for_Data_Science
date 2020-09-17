@@ -31,6 +31,7 @@ If you have a pipfile, you can try $ pipenv install
 which will re-create a pipenv/piplock from the pipfile
 
 - If you don't have a pipefile or it's out of date, or if for whatever reason you want to make a new fresh install, run the line below. You will probably add to this but it should work to start:
+
 ```pipenv install certifi chardet click flask gunicorn idna itsdangerous jinja2 numpy pandas python-dateutil python-dotenv pytz requests urllib3 werkzeug flask-cors```
 
 - run/create pipenv shell ($ pipenv shell)

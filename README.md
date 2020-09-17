@@ -36,7 +36,7 @@ which will re-create a pipenv/piplock from the pipfile
 
 - run/create pipenv shell ($ pipenv shell)
 
-Once you have a pipenv and shell set up and running:
+Once you have a pipenv and shell set up and running (and files to run):
 - $ python3 app.py
 
 ## 3. Deploying to Heroku

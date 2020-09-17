@@ -15,9 +15,7 @@ https://github.com/lineality/Minimal_Flask_Endpoint_API_for_Data_Science
 - 6. (Optional) Test that it's working (tools here, and some built in). 
 - Done!
 
-# Guide 
-
-## Minimal Flask API for Data Science (Doc version of guide)
+# Guide:  Minimal Flask API for Data Science (Doc version of guide)
 https://docs.google.com/document/d/1BdTu-WxGwxuAQ_xVwjbnAXvGgQMQkYxGn_UGGV_4pPw/edit?usp=sharing
 
 ## 1. Main Files You Need

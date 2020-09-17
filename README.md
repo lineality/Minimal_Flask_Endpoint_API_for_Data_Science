@@ -67,4 +67,11 @@ An AWS deployment is very similar, but there are some small differences. e.g.
 - application.route (AWS)
 
 
+## Other links:
+
+Search Functions in Pandas.ipynb
+https://colab.research.google.com/drive/1xKgXm0EQJgCkKBqhFiYw8TG2K83LfGAQ#scrollTo=eKIKzxe8P-PD
+
+Plotly Dash Heroku Github Tutorial Notes
+https://docs.google.com/document/d/1t-Jxd8bInY10KpIg4eklPNZT6m9o5WiFptB1e6wdEEc/edit
 

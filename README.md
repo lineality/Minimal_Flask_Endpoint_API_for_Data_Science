@@ -1,14 +1,18 @@
 # Minimal_Flask_Endpoint_API_for_Data_Science
 https://github.com/lineality/Minimal_Flask_Endpoint_API_for_Data_Science
 
+# Running Example of Demo: 
+## https://endpoint-template.herokuapp.com/
+
 ## Here is a guide for quickly setting up Minimal Flask Heroku Endpoint API for Deploying Data Science &amp; Machine Learning Functions, including files and tools for deploying and testing, including an HTML home page interface so you can test your functions directly from the page (and make that available to users if you want).
 
 ## Steps
 - 1. (Optional) Make a github repo (optional sync heroku to that)
 - 2. Set up a file system and Pipenv environment for your project
-- 3. (Optional) Good idea to test out your basic endpoints locally
-- 4. Create a new app on heroku.com, follow instruction there (also here) to deploy (very much like github, but it's heroku-git. 
-- 5. (Optional) Test that it's working (tools here, and some built in). 
+- 3. Drop in your template files from this repo (can git.clone) 
+- 4. (Optional) Good idea to test out your basic endpoints locally
+- 5. Create a new app on heroku.com, follow instruction there (also here) to deploy (very much like github, but it's heroku-git. 
+- 6. (Optional) Test that it's working (tools here, and some built in). 
 - Done!
 
 # Guide 
@@ -16,7 +20,7 @@ https://github.com/lineality/Minimal_Flask_Endpoint_API_for_Data_Science
 ## Minimal Flask API for Data Science (Doc version of guide)
 https://docs.google.com/document/d/1BdTu-WxGwxuAQ_xVwjbnAXvGgQMQkYxGn_UGGV_4pPw/edit?usp=sharing
 
-##1. Files you Need
+##1. Main Files You Need
 - proc file
 - pipenv file
 - app.py
@@ -58,7 +62,6 @@ Once you have a pipenv and shell set up and running:
 - app.route (heroku)
 - vs.
 - application.route (AWS)
-
 
 
 

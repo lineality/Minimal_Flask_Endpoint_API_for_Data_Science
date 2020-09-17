@@ -96,7 +96,7 @@ def test_demo_post():
     ####
     # example of just returning the input
     new_string = input_1_item + input_2_item
-    demo_output = {"answer": new_string}
+    demo_output = {"answer is combined inputs": new_string}
 
     # this turns output into a json object
     json_output = jsonify(demo_output)

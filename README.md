@@ -22,6 +22,9 @@ https://github.com/lineality/Minimal_Flask_Endpoint_API_for_Data_Science
 - proc file
 - pipenv file
 - app.py
+
+## app.py
+The app.py file here includes a few types of demo endpoints. One is a 2 input post endpoint. One is a basic 'get' endpoint that posts data or whatever you want (could be help information). There is also a pre-made json-file example, those are fast. And the home page of the api url is an html display including an interactive test for not exactly the same endpoints, but alternate versions that will work from form-filled data from that page. That way the same site can be both an API for machines, and a tool for human users. 
 	
 ## 2. Running Flask locally to check
 - https://docs.google.com/document/d/1eMlHzh0mske6XF10rchp8qDbgAu9ii8Y1ygk_YMuRno/edit?usp=sharing

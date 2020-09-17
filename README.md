@@ -9,7 +9,7 @@ https://github.com/lineality/Minimal_Flask_Endpoint_API_for_Data_Science
 ## Steps
 - 1. (Optional) Make a github repo (optional sync heroku to that)
 - 2. Set up a file system and Pipenv environment for your project
-- 3. Drop in your template files from this repo (can git.clone) 
+- 3. Drop in your template files from this repo (you can git clone from here) 
 - 4. (Optional) Good idea to test out your basic endpoints locally
 - 5. Create a new app on heroku.com, follow instruction there (also here) to deploy (very much like github, but it's heroku-git. 
 - 6. (Optional) Test that it's working (tools here, and some built in). 

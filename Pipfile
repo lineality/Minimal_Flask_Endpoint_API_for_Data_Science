@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+certifi = "*"
+chardet = "*"
+click = "*"
+flask = "*"
+gunicorn = "*"
+idna = "*"
+itsdangerous = "*"
+jinja2 = "*"
+numpy = "*"
+pandas = "*"
+python-dateutil = "*"
+python-dotenv = "*"
+pytz = "*"
+requests = "*"
+urllib3 = "*"
+werkzeug = "*"
+flask-cors = "*"
+
+[requires]
+python_version = "3.8"

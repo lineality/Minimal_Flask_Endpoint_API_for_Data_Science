@@ -9,10 +9,10 @@ https://docs.google.com/document/d/1BdTu-WxGwxuAQ_xVwjbnAXvGgQMQkYxGn_UGGV_4pPw/
 ### Deployed Running Example of Demo: 
 https://endpoint-template.herokuapp.com/
 
-### Endpoints on Deployed Running Example of Demo: 
+### Endpoints on Deployed Running Example of Demo: PUT
 https://endpoint-template.herokuapp.com/demo_post
 
-### Endpoints on Deployed Running Example of Demo: 
+### Endpoints on Deployed Running Example of Demo: GET
 https://endpoint-template.herokuapp.com/dummy_data
 
 ### Here is a guide for quickly setting up Minimal Flask Heroku Endpoint API for Deploying Data Science &amp; Machine Learning Functions, including files and tools for deploying and testing, including an HTML home page interface so you can test your functions directly from the page (and make that available to users if you want).

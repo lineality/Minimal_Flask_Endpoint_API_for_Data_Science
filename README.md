@@ -9,7 +9,7 @@ https://docs.google.com/document/d/1BdTu-WxGwxuAQ_xVwjbnAXvGgQMQkYxGn_UGGV_4pPw/
 ### Deployed Running Example of Demo: 
 https://endpoint-template.herokuapp.com/
 
-### Endpoint on Deployed Running Example of Demo: PUT
+### Endpoint on Deployed Running Example of Demo: POST
 https://endpoint-template.herokuapp.com/demo_post
 
 ### Endpoint on Deployed Running Example of Demo: GET

@@ -3,7 +3,7 @@
 ### Git hub Repo for this guide:
 https://github.com/lineality/Minimal_Flask_Endpoint_API_for_Data_Science
  
-### Doc version of this guide: https://docs.google.com/document/d/1BdTu-WxGwxuAQ_xVwjbnAXvGgQMQkYxGn_UGGV_4pPw/edit?usp=sharing
+### Doc version of this guide:  https://docs.google.com/document/d/1BdTu-WxGwxuAQ_xVwjbnAXvGgQMQkYxGn_UGGV_4pPw/edit?usp=sharing
 
 ### Deployed Running Example of Demo: 
 https://endpoint-template.herokuapp.com/

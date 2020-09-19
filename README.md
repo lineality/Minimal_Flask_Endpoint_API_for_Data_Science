@@ -17,8 +17,6 @@ https://endpoint-template.herokuapp.com/demo_post
 ### Endpoint on Deployed Running Example of Demo: GET
 https://endpoint-template.herokuapp.com/dummy_data
 
-
-
 ## Steps
 1. (Optional) Repo: Make a github repo (optional sync heroku to that)
 2. Pipevn: Set up a file system and Pipenv environment for your project
@@ -70,7 +68,6 @@ The github template contains a working demo so you don't have to add anything ju
 
 
 - If you don't have a pipefile or it's out of date, or if for whatever reason you want to make a new fresh install, run the line below. You will probably add to this but it should work to start:
-
 
 
 Once you have a pipenv and shell set up and running (and files to run):

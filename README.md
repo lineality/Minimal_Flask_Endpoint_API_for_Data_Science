@@ -11,10 +11,10 @@ https://github.com/lineality/Minimal_Flask_Endpoint_API_for_Data_Science
 https://endpoint-template.herokuapp.com/
 
 ### Endpoint on Deployed Running Example of Demo: POST
-https://endpoint-template.herokuapp.com/demo_post
+https://endpoint-template.herokuapp.com/post_endpoint_1
 
 ### Endpoint on Deployed Running Example of Demo: GET
-https://endpoint-template.herokuapp.com/dummy_data
+https://endpoint-template.herokuapp.com/data_get_endpoint
 
 
 ## Steps

@@ -81,8 +81,8 @@ def multiple_terms():
                             {'feature': request.values['feature2'], 'terms': request.values['terms2']}],
                 'offset': request.values['offset'], 'range': request.values['range']}
 
-@app.route('/test_demo_post', methods=['POST'])
-def test_demo_post():
+@app.route('/endpoint_1_post_HTML', methods=['POST'])
+def endpoint_1_post_HTML():
 
     # this gets the json object from the user
     json_obj = {'input_1': request.values['input_1'], 'input_2': request.values['input_2']}
@@ -105,8 +105,8 @@ def test_demo_post():
     return json_output
 
 # input form: {'input_1': "x", 'input_2': "y"}
-@app.route('/demo_post', methods=['POST'])
-def demo_post():
+@app.route('/post_endpoint_1', methods=['POST'])
+def post_endpoint_1():
 
     # this gets the json object from the user
     json_obj = request.get_json(force=True)
@@ -132,15 +132,15 @@ def demo_post():
 
 # dummy data is often useful at the start of a project before you have real data
 # no input needed for this endpoint
-@app.route('/dummy_data')
-def test_dummy_data():
+@app.route('/data_get_endpoint')
+def data_get_endpoint():
     return jsonify(dummy_data)
 
 
 # premade json files for output can be useful (super-fast)
 # no input needed for this endpoint
-@app.route('/prefab_1', methods=['GET'])
-def prefab_endpoint():
+@app.route('/prefab_endpoint_1', methods=['GET'])
+def prefab_endpoint_1():
     return open('json_file.json','r').read()
 
 

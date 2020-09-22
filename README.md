@@ -20,10 +20,10 @@ https://endpoint-template.herokuapp.com/dummy_data
 ## Steps
 1. (Optional) Repo: Make a github repo (optional sync heroku to that)
 2. Pipenv: Set up a file system and Pipenv environment for your project
-3. Code: Drop in the template files from this repo (can git clone from here), you can put in your real function code later. 
-4. (Optional) Good idea to test out your basic endpoints locally
+3. Code: Drop in the template files from this repo (git clone from here), you can put in your real function code later. 
+4. (Optional) Good idea to test out your endpoints locally
 5. Heroku: Create a new app on heroku.com, & follow instructions there (also here) to deploy (very much like github, but it's heroku-git. 
-6. (Optional) Test that your endpoints are working (tools here, and some built in). 
+6. (Optional) Test that your endpoints are working (tools linked here, and some built in). 
 - Done!
 
 

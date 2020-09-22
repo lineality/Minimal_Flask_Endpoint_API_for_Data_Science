@@ -61,7 +61,7 @@ If you have a pipfile, you can try the command below which will re-create a pipe
 ```
 $ pipenv install
 ```
-An advantage of this is that it will use the same package versions which may be necessary so that everything 'plays nice' and runs together. A disadvantage can be that if the project you are copying this way is an old project, the packages may be unnessesarily old versions and using new versions may be safe and a good idea. E.g. for this demo code, it's probably best to use the newest versions of the packages and libraries listed here. 
+An advantage of this is that it will use the same package versions which may be necessary so that everything 'plays nice' and runs together. A disadvantage can be that if the project you are copying this way is an old project, the packages may be unnecessarily old versions and using new versions may be safe and a good idea. E.g. for this demo code, it's probably best to use the newest versions of the packages and libraries listed here. 
 
 
 Way 2: If you do not have a pipefile or it's out of date, or if for whatever reason you want to make a new fresh install, run the line below. You will probably add to this but it should work to start:

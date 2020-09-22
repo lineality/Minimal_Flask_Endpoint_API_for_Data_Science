@@ -140,7 +140,7 @@ If you can use this tutorial to make a working heroku endpoint, then moving that
 Search Functions in Pandas.ipynb
 https://colab.research.google.com/drive/1xKgXm0EQJgCkKBqhFiYw8TG2K83LfGAQ#scrollTo=eKIKzxe8P-PD
 
-Plotly Dash Heroku Github Tutorial Notes
+Plotly Dash Heroku Github Tutorial Notes: For a graphical interface to your DS function
 https://docs.google.com/document/d/1t-Jxd8bInY10KpIg4eklPNZT6m9o5WiFptB1e6wdEEc/edit
 
 AWS & HTTPS Guide

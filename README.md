@@ -11,10 +11,10 @@ https://github.com/lineality/Minimal_Flask_Endpoint_API_for_Data_Science
 https://endpoint-template.herokuapp.com/
 
 ### Endpoint on Deployed Running Example of Demo: POST
-https://endpoint-template.herokuapp.com/post_endpoint_1
+https://endpoint-template.herokuapp.com/demo_post
 
 ### Endpoint on Deployed Running Example of Demo: GET
-https://endpoint-template.herokuapp.com/data_get_endpoint
+https://endpoint-template.herokuapp.com/dummy_data
 
 
 ## Steps
@@ -35,7 +35,7 @@ https://endpoint-template.herokuapp.com/data_get_endpoint
 - pipenv file
 - app.py
 
-For this minimal design, the app.py is basically your whole endpoint system, including all the functions, endpoints, flask server code, etc. (Optional Exception: The Template directory stores the html used for the home page.)  The app.py file here includes a few types of demo endpoints. One is a 2 input post endpoint. One is a basic 'get' endpoint that posts data or whatever you want (could be help information). There is also a pre-made json-file endpoint example; those are fast. Usually with an API, the URL is only for machines has no interface for a user who goes to that URL with a browser, but it is possible to make an HTML interface to let a user interact with endpoints through HTML on that URL (e.g. the home page). The demo home page of the api url is an html display to use endpoints. Note: the HTML version does not hit exactly the same endpoints (due to json-input formatting), but as a way to test the endpoint functions these HTML-endpoints are identical in how they handle input and output. In other words, this way of making a page includes a built-in interactive-html-interface endpoint-test for not exactly the same endpoints, but alternate versions that will work from form-filled data from that html page. That way the same site can be both an API for machines, and a tool for human users, albeit using two sets of endpoints.
+For this minimal design, the app.py is basically your whole endpoint system, including all the functions, endpoints, flask server code, etc. (Optional Exception: The Template directory stores the html used for the home page.)  The app.py file here includes a few types of demo endpoints. One is a 2 input post endpoint. One is a basic 'get' endpoint that outputs data or whatever you want (could be help information). There is also a pre-made json-file endpoint example; those are fast. Usually with an API, the URL is only for machines has no interface for a user who goes to that URL with a browser, but it is possible to make an HTML interface to let a user interact with endpoints through HTML on that URL (e.g. the home page). The demo home page of the api url is an html display to use endpoints. Note: the HTML version does not hit exactly the same endpoints (due to json-input formatting), but as a way to test the endpoint functions these HTML-endpoints are identical in how they handle input and output. In other words, this way of making a page includes a built-in interactive-html-interface endpoint-test for not exactly the same endpoints, but alternate versions that will work from form-filled data from that html page. That way the same site can be both an API for machines, and a tool for human users, albeit using two sets of endpoints.
 
 
 # Steps to Deploy Your Endpoints
@@ -105,8 +105,7 @@ $ python3 app.py
 Create a new app on heroku.com, & follow instructions there (also here) to deploy (very much like github, but it's heroku-git. 
 
 Go to https://dashboard.heroku.com/ and login or make an account. (free tier should be fine)
-You may also need to install the heroku command line interface (details depend on your OS). 
-Follow instructions to create a new app, which should be similar to this:
+You may also need to install the heroku command line interface (details depend on your OS) https://devcenter.heroku.com/articles/heroku-cli. Follow good instructions on Heroku's site to create a new app, which should be similar to this:
 ```
 # $ heroku login
 # $ cd my-project/

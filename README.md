@@ -1,7 +1,7 @@
 # Minimal_Flask_Endpoint_API_for_Data_Science
 
 
-#### Here is a guide for quickly setting up Minimal Flask Heroku Endpoints for Deploying Data Science &amp; Machine Learning Functions, including files and tools for deploying and testing, and an HTML home page interface so you can test your functions directly from the page (and make that available to users if you want).
+#### Here is a guide for quickly setting up Minimal Endpoints for Deploying Data Science and Machine Learning Functions using Python(language), Flask(server), and Heroku(host), including files and tools for deploying and testing, and an HTML home page interface so you can test or use your functions directly from the homepage (and make that available to users as well).
 
 Doc version of this guide:  https://docs.google.com/document/d/1BdTu-WxGwxuAQ_xVwjbnAXvGgQMQkYxGn_UGGV_4pPw/
 

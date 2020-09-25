@@ -1,6 +1,5 @@
 # Minimal_Flask_Endpoint_API_for_Data_Science
 
-
 #### Here is a guide for quickly setting up Minimal Endpoints for Deploying Data Science and Machine Learning Functions using Python(language), Flask(server), and Heroku(host), including files and tools for deploying and testing, and an HTML home page interface so you can test or use your functions directly from the homepage (and make that available to users as well).
 
 Doc version of this guide:  https://docs.google.com/document/d/1BdTu-WxGwxuAQ_xVwjbnAXvGgQMQkYxGn_UGGV_4pPw/
@@ -50,6 +49,7 @@ Note: after you clone a repo, cd (change directory) into that repo! Easy to forg
 
 You can also sync your heroku app to this directly if you want later, making versioning and syncing that much more streamlined. Note: After you make the repo (or use a clone of the demo).
 
+
 ## Step 2. Make your pip environment
 Heroku is like a container deployment system. Your endpoint is self contained environment in Heroku running on a server (with HTTPS and all the great things that Heroku does for you). 
 For Heroku to work you will need to tell heroku what packages it needs to install to run your programs. Having the pipfile and piplock files should be enough. A requirements.txt file may also work.
@@ -64,12 +64,10 @@ $ pipenv install
 ```
 An advantage of this is that it will use the same package versions which may be necessary so that everything 'plays nice' and runs together. A disadvantage can be that if the project you are copying this way is an old project, the packages may be unnecessarily old versions and using new versions may be safe and a good idea. E.g. for this demo code, it's probably best to use the newest versions of the packages and libraries listed here. 
 
-
 Way 2: If you do not have a pipefile or it's out of date, or if for whatever reason you want to make a new fresh install, run the line below. You will probably add to this but it should work to start:
 ```
 pipenv install certifi chardet click flask gunicorn idna itsdangerous jinja2 numpy pandas python-dateutil python-dotenv pytz requests urllib3 werkzeug flask-cors
 ```
-
 - To start and enter the pipenv shell to test your code: run in terminal $ pipenv shell
 
 Guide on Pipenv and Editor Configuration:

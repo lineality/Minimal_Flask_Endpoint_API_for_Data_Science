@@ -59,10 +59,9 @@ dummy_data = {
 app = Flask(__name__)
 CORS(app)
 
-# note: for herkoku or aws use private environment variables
-# use dotenv
-#
-# Need to install git secrets
+# Notes:
+# 1. For herkoku or aws use private environment variables: use dotenv
+# 2. Need to install git secrets
 
 # Your Home Screen
 @app.route('/')
@@ -76,10 +75,6 @@ def home():
 # that runs a function, processes, input, and gives output
 
 
-def multiple_terms():
-    json_obj = {'search': [{'feature': request.values['feature1'], 'terms': request.values['terms1']},
-                            {'feature': request.values['feature2'], 'terms': request.values['terms2']}],
-                'offset': request.values['offset'], 'range': request.values['range']}
 
 @app.route('/endpoint_1_post_HTML', methods=['POST'])
 def endpoint_1_post_HTML():
@@ -143,6 +138,57 @@ def data_get_endpoint():
 def prefab_endpoint_1():
     return open('json_file.json','r').read()
 
+# input form: {'input_1': "x", 'input_2': "y"}
+@app.route('/normalized_score_dummy', methods=['POST'])
+def normalized_score_dummy():
+
+    # this gets the json object from the user
+    json_obj = request.get_json(force=True)
+
+    # # These lines brake up the json object into
+    # # variables that are use-able by python
+    # input_1_item = json_obj["input_1"]
+    # input_2_item = json_obj["input_2"]
+
+    ####
+    ## Your Actual function/model Code Goes Here
+    ####
+    # example of just returning the input
+    import random
+    score = random.uniform(0, 1)
+    demo_output = {"normalized_score": score}
+
+    # this turns output into a json object
+    json_output = jsonify(demo_output)
+
+    # returns the json format output
+    return json_output
+
+# input form: {'input_1': "x", 'input_2': "y"}
+@app.route('/normalized_score_dummy_HTML', methods=['POST'])
+def normalized_score_dummy_HTML():
+
+    # this gets the json object from the user
+    json_obj = {'ID': request.values['ID']}
+
+
+    # # These lines brake up the json object into
+    # # variables that are use-able by python
+    # input_1_item = json_obj["input_1"]
+
+    ####
+    ## Your Actual function/model Code Goes Here
+    ####
+    # example of just returning the input
+    import random
+    score = random.uniform(0, 1)
+    demo_output = {"normalized_score": score}
+
+    # this turns output into a json object
+    json_output = jsonify(demo_output)
+
+    # returns the json format output
+    return json_output
 
 if __name__ == "__main__":
     # Setting debug to True enables debug output. This line should be

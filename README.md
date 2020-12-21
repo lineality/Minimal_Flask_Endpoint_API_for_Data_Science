@@ -148,3 +148,5 @@ https://docs.google.com/document/d/1t-Jxd8bInY10KpIg4eklPNZT6m9o5WiFptB1e6wdEEc/
 AWS & HTTPS Guide
 https://docs.google.com/document/d/18ivF-ACu-sFEomPXmymua-p1_uWXorqMkm4GCKMT7P4/edit?usp=sharing
 
+(see other guide for FastAPI)
+
